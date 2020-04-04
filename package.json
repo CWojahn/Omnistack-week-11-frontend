@@ -16,7 +16,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"heroku-postbuild": "yarn && yarn add react-router-dom"
+		"heroku-postbuild": "yarn add react-router-dom"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
