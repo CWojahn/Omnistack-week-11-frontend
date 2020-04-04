@@ -13,9 +13,10 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"heroku-postbuild": "yarn --production=false && yarn run build",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"heroku-postbuild": "yarn add react-router-dom"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
